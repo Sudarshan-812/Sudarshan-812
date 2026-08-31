@@ -1,7 +1,9 @@
-# Sudarshan Kulkarni — AI Engineer
+# Sudarshan Kulkarni — Full-Stack AI Systems Engineer
 
 Building production AI systems close to the metal.
 Voice AI · RAG · Agentic Pipelines · Real-Time Infrastructure
+
+> 🔨 Currently building **GramOS**.
 
 ## 🌐 Socials
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white)](https://www.sudarshank.com)
@@ -13,15 +15,17 @@ Voice AI · RAG · Agentic Pipelines · Real-Time Infrastructure
 
 ## 🚀 What I'm Building
 
-5 production AI systems shipped independently:
+Production AI systems shipped independently:
 
 | Project | What It Does | Stack |
 |---------|-------------|-------|
-| **[Cortex](https://cortex.sudarshank.com)** | Multi-tenant RAG platform — ask questions across your documents | pgvector · BM25 · RRF · SSE · Claude API |
-| **[Column8](https://column8.sudarshank.com)** | Voice interview simulator + ATS scoring SaaS | LiveKit · Deepgram · Groq · Next.js · Razorpay |
-| **[Nexus](https://github.com/Sudarshan-812/livekit-voice-agent)** | Real-time WebRTC voice agent, sub-second latency | FastAPI · LiveKit · Deepgram · Groq · Docker |
-| **Kavya** | Bilingual outbound voice AI for NBFC collections | Bolna · Hindi/Hinglish · RBI/TRAI compliant |
-| **Clary** | Deterministic clinical reasoning engine | FastAPI · Pydantic · Gemini · Circuit breakers |
+| **GramOS** | In progress — building now | _more soon_ |
+| **[Cortex](https://cortex.sudarshank.com)** | Multi-tenant RAG platform — hybrid pgvector + BM25 search fused via RRF, custom zero-latency SSE token streaming, automated Ragas/Braintrust eval pipelines | Python · pgvector · PostgreSQL · RRF · SSE · Claude API · Ragas · Braintrust · Next.js |
+| **[Column8](https://column8.sudarshank.com)** | Voice interview simulator + ATS scoring SaaS — Razorpay subscriptions, HMAC webhook verification, plan-based feature gating | Next.js · FastAPI · Supabase · Upstash Redis · LiveKit · Deepgram · Groq · Razorpay |
+| **[Nexus](https://github.com/Sudarshan-812/livekit-voice-agent)** | Real-time WebRTC voice agent — sub-580ms turn-taking, Silero VAD barge-in kill-switch, live model failover | Python · asyncio · LiveKit WebRTC · Deepgram · Groq · ChromaDB · Docker |
+| **[Plum Claims](https://github.com/Sudarshan-812/plum-claims)** | Deterministic LangGraph pipeline for health-insurance claims adjudication — Human-in-the-Loop breakpoints, JSON audit ledgers | Python · FastAPI · LangGraph · Gemini Vision · PostgreSQL · Pydantic |
+| **[Clary](https://github.com/Sudarshan-812/askfirst-clary-engine)** | Two-stage agentic clinical reasoning engine — strict Pydantic schema enforcement, model-fallback circuit breakers | Python · Pydantic · FastAPI · Gemini API |
+| **Kavya** | Bilingual outbound voice AI for NBFC collections — 8-branch state machine, omnichannel Redis state hydration, RBI/TRAI compliant | Bolna · Deepgram · Groq · Python · Hindi/Hinglish |
 
 ---
 
@@ -30,8 +34,11 @@ Voice AI · RAG · Agentic Pipelines · Real-Time Infrastructure
 ### AI & Voice
 ![Anthropic](https://img.shields.io/badge/Anthropic_Claude-000000?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
 ![Deepgram](https://img.shields.io/badge/Deepgram-101010?style=for-the-badge&logoColor=white)
 ![LiveKit](https://img.shields.io/badge/LiveKit-0F9D58?style=for-the-badge&logoColor=white)
+
+Also: LangGraph · RAG pipelines · hybrid search (RRF) · vector embeddings · agentic tool-calling · ChromaDB · Ragas · Braintrust
 
 ### Backend
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -53,25 +60,24 @@ Voice AI · RAG · Agentic Pipelines · Real-Time Infrastructure
 
 ---
 
-## 📊 Production Metrics
+## 📊 Engineering Highlights
 
-- **Cortex** — 170 visitors, 417 page views (last 30 days, +448% growth)
-- **Column8** — 141 visitors, 339 page views (last 30 days, +176% growth)
-- **Kavya** — 8-branch RBI/TRAI compliant voice AI, bilingual Hindi/Hinglish
-- **Nexus** — sub-second P95 latency on Indian cellular networks
+- **Cortex** — hybrid RAG (pgvector + BM25 fused via RRF) with a custom zero-latency SSE token-streaming layer; automated Ragas/Braintrust eval pipelines to trace context alignment and cut hallucination frequency.
+- **Column8** — live SaaS with real paying users; Razorpay subscription monetization with HMAC webhook verification, plan-based feature gating, and an Upstash Redis sliding-window rate limiter on live-facing endpoints.
+- **Nexus** — sub-580ms end-to-end voice turn-taking on Indian cellular networks; Silero VAD barge-in kill-switch cancelling in-flight tasks within ~45ms of user speech, plus live model failover to backup endpoints.
+- **Kavya** — 8-branch RBI/TRAI-compliant bilingual (Hindi/Hinglish) collections voice AI with omnichannel state recovery across voice and WhatsApp.
+- **Plum Claims** — fault-tolerant LangGraph adjudication pipeline with Human-in-the-Loop `interrupt_before` breakpoints and legally compliant JSON audit ledgers for every reasoning state.
 
 ---
 
 ## 🧠 About Me
 
 Self-taught AI engineer based in Bengaluru.
-0 official YOE. 5 production systems.
 
-I don't use LangChain. I build close to the metal so every
-layer is debuggable and every failure is traceable.
+I don't use LangChain. I build close to the metal so every layer is debuggable and every failure is traceable.
 
-Currently looking for AI Engineer roles.
-Immediate joiner.
+Currently building **GramOS**.
 
-⚡ Went from zero to 5 production AI systems in 18 months —
-including a live SaaS with real revenue and 300+ monthly visitors.
+---
+
+_Last updated: September 2026_
