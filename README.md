@@ -5,6 +5,10 @@ Voice AI · RAG · Agentic Pipelines · Real-Time Infrastructure
 
 > 🔨 Currently building **GramOS**, an AI risk-intelligence platform for rural-enterprise lending.
 
+<div align="left">
+  <img src="https://komarev.com/ghpvc/?username=Sudarshan-812&style=flat-square&color=blue" alt="Profile Views" />
+</div>
+
 ## 🌐 Socials
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white)](https://www.sudarshank.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sudarshankbuilds/)
@@ -73,4 +77,6 @@ Also: LangGraph, multi-agent pipelines, RAG, hybrid search (RRF), vector embeddi
 
 ## 🧠 About Me
 
-Sudarshan Kulkarni
+I'm a 21-year-old AI and full-stack systems engineer based in Vijayapura. Growing up in a family that operates a sugarcane farm gave me a firsthand look at the economic friction and systemic inefficiencies in rural agriculture—which directly inspired my work as the solo founder of **GramOS**. I am building the exact risk-intelligence and payment-arrears infrastructure I wish existed for my own family's operations.
+
+I thrive in quiet environments and dedicate my time almost exclusively to intensive product development. When I'm not building close to the metal with FastAPI, Next.js, and the Gemini ecosystem, I'm focused on researching new ways to push the boundaries of real-time voice infrastructure and deterministic multi-agent pipelines.
